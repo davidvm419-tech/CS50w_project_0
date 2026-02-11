@@ -1,1 +1,46 @@
-/*Style should resemble Google's aesthetics*/
+/* Style the navbar where the links to the other pages live */
+.navbar {
+    background-color: rgb(66, 133, 244);
+    padding: 50px;
+    text-align: right;
+    border-radius: 8px;
+}
+
+
+/* Style for the links display*/
+.hyperlinks {
+    display: flex;
+    gap: 15px;
+}
+
+/* Style for links default and hovering behaviour */
+.link1, .link2 {
+    color: rgb(244, 160, 0);
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.link1:hover, .link2:hover{
+    color: rgb(244, 160, 0);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Style for the box search and button*/
+.search {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.search_box {
+    border-radius: 30px;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+}

@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Images search</title>
-        <a href="style.css"></a>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <a href="index.html">Back to search</a><br>
-        <form action="https://www.google.com/search?udm=2">
-            <input type="text" name="q"><br>
-            <input type="submit" value="Search for image">
-            <!-- hidden input so it send the request to images not normal search -->
-            <input type="hidden" name="tbm" value="isch">
-        </form>
+        <nav class="navbar">
+            <div class="links">
+                <a class="link1" href="index.html">Back to search</a>
+            </div>
+        </nav>
+        <div class="search">
+            <form action="https://www.google.com/search?udm=2">
+                <input class="search_box" type="text" name="q"><br>
+                <input class="search_button" type="submit" value="Search for image">
+                <!-- hidden input so it sends the request to images not normal search -->
+                <input type="hidden" name="tbm" value="isch">
+            </form>
+        </div>
     </body>
     <footer>
 
