@@ -9,20 +9,33 @@
     <body>
         <nav class="navbar">
             <div class="links">
+                <img class="logo_advanced" src="logo2.png" alt="Google logo">
                 <a class="link1" href="index.html">Back to search</a><br>
             </div>
         </nav>
         <h2>Advanced Search</h2>
         <h3>Find pages with...</h3>
         <form action="https://www.google.com/search">
-            all these words:<input type="text" name="as_q"><br>
-            this exact word or phrase: <input type="text" name="as_epq"><br>
-            any of these words: <input type="text" name="as_oq"><br>
-            none of these words: <input type="text" name="as_eq"><br>
-            <input type="submit" value="Advanced Search">
+            <div class="options">
+                <p>all these words:</p>
+                <input class="box" type="text" name="as_q">
+            </div>
+            <div class="options">
+                <p>this exact word or phrase:</p>
+                <input class="box" type="text" name="as_epq">
+            </div>
+            <div class="options">
+                <p>any of these words:</p>
+                <input class="box" type="text" name="as_oq">
+            </div>
+            <div class="options">
+                <p>none of these words:</p>
+                <input class="box" type="text" name="as_eq">
+            </div>
+            <input class="search_button" type="submit" value="Advanced Search">
         </form>
         <footer>
-            <p>&copy; Google. Search project by Juan David Vargas</p>
+            <h4>&copy; Google. Search project by Juan David Vargas</h4>
         </footer>
     </body>
 </html>

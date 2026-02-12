@@ -1,9 +1,16 @@
 /* Style the navbar where the links to the other pages live */
 .navbar {
-    background-color: rgb(66, 133, 244);
-    padding: 50px;
+    background-color: #4285f4;
+    padding: 80px;
     text-align: right;
     border-radius: 8px;
+}
+/* Style for the body */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
 }
 
 
@@ -15,32 +22,141 @@
 
 /* Style for links default and hovering behaviour */
 .link1, .link2 {
-    color: rgb(244, 160, 0);
-    display: inline-block;
+    color: #f4a000;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 20px;
     padding: 20px;
     text-decoration: none;
 }
 
-.link1:hover, .link2:hover{
-    color: rgb(244, 160, 0);
+.link1:hover, .link2:hover {
+    color: #f4a000;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* Style for the box search and button*/
+/* Style for logo and advanced search logo*/
+.logo {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.logo_advanced {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    width: 40px;
+}
+
+/* Style for the box search and buttons*/
 .search {
     align-items: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 .search_box {
+    border: 2px solid #0F9D58;
     border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     height: 50px;
     width: 700px;
+    outline: none;
+}
+
+.search form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.search_button, .lucky_button {
+    background-color: #4285f4;
+    border: 2px solid #4285f4;
+    border-radius: 9px;
+    color: white;
+    font-size: 15px;
+    margin: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search_button:hover, .lucky_button:hover {
+    background-color: #0F9D58;
+    border: 2px solid #0F9D58;
+    border-radius: 9px;
+    color: white;
+    font-size: 15px;
+    margin: 9px;
+    padding: 10px 20px;
+}
+
+/* Style for advanced search text*/
+
+h2 {
+    color: #DB4437;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 2px;
+    width: 150px;
+}
+
+/* Style for advanced search boxes*/
+.options {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.box {
+    border: 2px solid #0F9D58;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 20px;
+    width: 180px;
+    outline: none;
+}
+
+/* Style for footer*/
+footer {
+    margin-top: auto;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
 }
