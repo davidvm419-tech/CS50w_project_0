@@ -3,7 +3,7 @@
     background-color: #4285f4;
     padding: 80px;
     text-align: right;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 /* Style for the body */
 body {
@@ -108,6 +108,7 @@ h2 {
     color: #DB4437;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    margin-left: 150px;
     padding: 20px;
 }
 
@@ -116,6 +117,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 150px;
     padding: 20px;
 }
 
@@ -124,6 +126,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 2px;
+    margin-left: 150px;
     width: 150px;
 }
 
@@ -137,12 +140,19 @@ p {
 
 .box {
     border: 2px solid #0F9D58;
-    border-radius: 30px;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     height: 20px;
-    width: 180px;
+    width: 450px;
     outline: none;
+}
+
+/* Style to move advanced search button*/
+.advanced_button {
+        display: flex;
+        margin-left: 600px;
+        margin-top: 10px;
 }
 
 /* Style for footer*/
